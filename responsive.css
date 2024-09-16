@@ -1,0 +1,133 @@
+@media (min-width: 750px) and (max-width: 1024px) {
+        .testimonials {
+          padding: 40px 20px;
+          background-color: #fff;
+          text-align: center;
+      
+         left: 20%;
+   
+          width: 50%;
+        }
+        
+        .for_coders{
+      margin-left: 90px;
+      margin-right: 63px;
+        }
+
+        .testimonials img {
+          border-radius: 50%;
+          height: 120px;
+          object-fit: cover;
+          margin-top: 20px;
+        }
+
+        .managers_features button{
+                margin-left: 90px;
+        }
+
+
+        .coder_features button{
+
+                margin-left: 90px;
+        }
+
+
+        div.for_managers {
+                margin-left: 94px;
+              }
+
+           
+
+      .showcase {
+        display: flex;
+        flex-direction: column; 
+        justify-content: center; 
+        align-items: center; 
+        min-height: 100vh; 
+      }
+      
+      .column1, .column2 {
+        width: 100%; 
+        max-width: 600px; 
+        text-align: center; 
+        margin-bottom: 20px; 
+      }
+
+      .teams {
+        width: 400px;
+        height: auto;
+        border-radius: 90px;
+     
+      }
+      .codelabs_logo{
+
+        
+        transform: translateY(-4.1rem);
+        margin-left: -50px;
+      }
+
+      div.codelabs_logo{
+        margin-top: 50px;
+      }
+    }
+
+      
+
+      @media screen and (min-width: 1024px) {
+        footer.copyright {
+          color: #fff;
+          margin-top: 20px;
+          font-size: 0.9em;
+          padding-left: 250px;
+        }
+
+        .column2{
+        max-width: 600px; 
+        }
+
+
+      }
+      
+      @media screen and (min-width: 1024px) {
+        .navbar {
+          grid-template-columns: 1fr 1fr;
+          gap: 20px;
+        }
+        .codelabs_logo {
+          text-align: start;
+          padding-left: 50px;
+        }
+      
+        .stat-box {
+          background-color: #fff;
+          border: 1px solid #ddd;
+          border-radius: 10px;
+          padding: 5px;
+          width: 500px;
+          text-align: center;
+          box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+      
+        .stat-box2 {
+          background-color: #fff;
+          border: 1px solid #ddd;
+          border-radius: 10px;
+          padding: 20px;
+          width: 500px;
+          text-align: center;
+          box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+      
+        .feature-container1 {
+          display: flex;
+          flex-direction: column;
+          width: 100%;
+        }
+      }
+
+      @media screen and (min-width: 1024px) {
+        .testimonials {
+              width: 100%;
+              }
+
+      }
